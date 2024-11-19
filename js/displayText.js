@@ -7,9 +7,12 @@ function displayText() {
 
     let containerBienvenida = document.getElementById("containerBienvenida");
     containerBienvenida.classList.remove("containerBienvenida");
-    containerBienvenida.classList.add("containerBienvenidaPost");
+    containerBienvenida.style.display = "none";
 
     let containerModal = document.getElementById("containerModal");
     containerModal.style.display = "flex";
+
+    let banner = document.getElementById("banner");
+    banner.style.display = "flex";
 
   }

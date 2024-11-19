@@ -57,7 +57,20 @@
   font-weight: 300;
 }
 
-  /* From Uiverse.io by omriluz */ 
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerMorfosis{
+  max-width: 40%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
 .form-container {
   margin: auto;
   margin-bottom: 20px;
